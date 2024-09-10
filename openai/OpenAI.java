@@ -47,6 +47,7 @@ public class OpenAI extends AndroidNonvisibleComponent {
         put("B2", "gpt-4-0314");
         put("B3", "gpt-4-32k");
         put("B4", "gpt-4-32k-0314");
+	put("B5", "gpt-4o-mini");
     }};
 
     @SimpleFunction(description = "Chats with the OpenAI bot, with your query and your API key. Choose a model to talk to with the model parameter." +
